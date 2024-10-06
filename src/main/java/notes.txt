@@ -1,0 +1,10 @@
+A Program to demonstrate the use of @RequestHeader annotation:
+Programs:
+* AppConfig.java
+* AppInit.java
+* ApplicationController.java
+Notes:
+* The @RequestHeader annotation used to extract the values from web request and bind them to method arguments.
+* This annotation can used at parameter level only.
+* The @RequestHeader annotation can accept value, name, required, defaultValue attributes.
+* If the method parameter is Map<String, String>, MultiValueMap<String, String>,or HttpHeaders then that argument binds the kay-value pair of all the headers.
